@@ -10,7 +10,7 @@ const CONFIG = {
   hours: "", // e.g. "Mon – Sat, 10:00 – 19:00 IST"
   instagram: "https://www.instagram.com/Rituchakkravastu",
   // Razorpay: paste your Key ID (starts with rzp_live_ or rzp_test_). Leave empty to run in test mode.
-  razorpayKey: "",
+  razorpayKey: "rzp_test_U20qqM8ylLVXaX",
   // Server functions (included in the download) that create and verify Razorpay orders.
   createOrderUrl: "/api/create-order",
   verifyUrl: "/api/verify-payment",
