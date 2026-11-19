@@ -26,14 +26,16 @@ The pages share three files:
 Open `js/settings.js`. Everything you will usually change is there:
 - `CONFIG`: WhatsApp number, phone, email, address, hours, shipping charges, Razorpay key
 - `PACKAGES`: names, prices, inclusions and the Calendly link for each
+- `ZONE_NOTES`: the one-line notes the free Zone Mapper shows for each of the 16 zones.
 - `PRODUCTS`: set `price: null` to show "Price on request" with a WhatsApp button, or a number (e.g. `price: 1100`) to sell it online with the cart. To show a photo, add `img: "/images/car-yantra.jpg"` and upload the photo into `images/`.
 
 The page wording (headlines, about text, services, process) is inside each page's HTML. Ask Claude to change it so all pages stay in sync.
 
 ## 2. Calendly
+Booking now follows "pick a time first, pay last": the client chooses a slot in your Calendly calendar, adds their home details, then pays with Razorpay.
 1. Create one event type per package in Calendly.
-2. In each event add a first custom question, "Payment and contact details". The site fills it in with the Razorpay payment ID, phone and city.
-3. Paste each event's link into the matching package's `calendly` field.
+2. Paste each event's link into the matching package's `calendly` field in `js/settings.js`.
+3. Because the slot is booked before payment, a client who leaves at the payment step still holds a Calendly slot. Each Razorpay payment lists the slot in its notes, so before each day's calls, check that every Calendly booking has a matching payment and cancel any that don't.
 
 ## 3. Razorpay
 1. Sign up at razorpay.com and complete KYC. Give them these links: Terms, Privacy, Refund and Shipping at `rituchakkravastu.com/policies/`, contact at `rituchakkravastu.com/contact/`.
@@ -64,4 +66,4 @@ After the site is live, paste `https://rituchakkravastu.com` into a WhatsApp cha
 ## While you're setting up
 - With `razorpayKey` empty the site shows a labelled test payment screen and charges nothing.
 - With `YOUR-HANDLE` still in a Calendly link the site shows a sample calendar.
-- A small "Preview" note bottom-left lists what is still in test mode. It disappears once both are set.
+- A thin "Preview" bar at the top lists what is still in test mode. It disappears once both are set.

@@ -80,3 +80,23 @@ const POLICIES = {
   refund:["Refunds & cancellation",`<h3>Consultations</h3><p>Cancel more than 48 hours before your slot for a full refund. Within 48 hours you can reschedule once at no charge. No refund after the consultation has taken place.</p><h3>Products</h3><p>Products damaged in transit are replaced free. Report within 48 hours of delivery with a photo. Energised products cannot be returned once opened.</p><h3>Refund timing</h3><p>Approved refunds go back to the original payment method within 5–7 working days.</p>`],
   shipping:["Shipping policy",`<p>We ship across India through trusted courier partners.</p><h3>Dispatch</h3><p>Orders are energised and dispatched within 2–3 working days.</p><h3>Delivery</h3><p>Delivery takes 3–7 working days depending on location. Tracking is shared on WhatsApp.</p><h3>Charges</h3><p>₹${CONFIG.shippingFlat} per order, free above ₹${CONFIG.freeShippingOver.toLocaleString("en-IN")}.</p>`]
 };
+
+// One-line notes shown in the Zone Mapper. A general guide; Rahul reads all 16 zones together.
+const ZONE_NOTES = {
+  N:"Keep it open and clutter-free. A good place for a cash locker or the entrance.",
+  NNE:"Linked to health and immunity. Avoid toilets and heavy storage here.",
+  NE:"The zone for prayer and clear thinking. Keep it light, clean and open.",
+  ENE:"Linked to fun and recreation. Suits a family lounge or play area.",
+  E:"Linked to social connections. Morning light here supports networking.",
+  ESE:"Linked to churning and analysis. Avoid placing the bed here.",
+  SE:"The zone of fire and cash flow. A good place for the kitchen.",
+  SSE:"Linked to strength and confidence. Suits a study or workspace.",
+  S:"Linked to fame and rest. Suits a bedroom; keep it stable and closed.",
+  SSW:"Linked to disposal and letting go. Suits a toilet or storage.",
+  SW:"Linked to relationships and stability. Ideal for the master bedroom.",
+  WSW:"Linked to education and savings. Suits a study table or library.",
+  W:"Linked to gains and profits. Suits a dining area or children's room.",
+  WNW:"Linked to detox and release. Suits a toilet or utility area.",
+  NW:"Linked to support and banking. Suits a guest room or storage of goods.",
+  NNW:"Linked to attraction and intimacy. Suits a bedroom for a couple."
+};
