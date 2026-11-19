@@ -20,22 +20,22 @@ const CONFIG = {
 const PACKAGES = [
   {id:"online-45",mode:"online",name:"Online Consultation",price:1100,unit:"45 minutes",meta:"Video call · any property",
    feat:["Floor plan and photo review","Key problem zones identified","Pyramid remedies explained on the call","Ideal for a quick, focused question"],
-   calendly:"https://calendly.com/YOUR-HANDLE/online-consultation"},
+   calendly:"https://calendly.com/rituchakkravastu/vastu-consultation-with-rahul-purohit"},
   {id:"online-report",mode:"online",name:"End-to-End Online Consulting",price:2990,unit:"with report",tag:"Most chosen",meta:"Complete online consultation",
    feat:["Full review of floor plan and photos","Positive and negative zones mapped","Written report with pyramid remedies","Nirantar follow-up as you apply them"],
-   calendly:"https://calendly.com/YOUR-HANDLE/end-to-end-online"},
+   calendly:"https://calendly.com/rituchakkravastu/vastu-consultation-with-rahul-purohit"},
   {id:"commercial",mode:"online",name:"Commercial Spaces",price:9000,unit:"onwards",meta:"Offices, shops, showrooms, clinics",
    feat:["Review of layout and seating","Cash, entrance and work zones checked","Pyramid solutions for business growth","Final fee depends on size and nature"],
-   calendly:"https://calendly.com/YOUR-HANDLE/commercial"},
+   calendly:"https://calendly.com/rituchakkravastu/vastu-consultation-with-rahul-purohit"},
   {id:"visit-2bhk",mode:"person",name:"Home Site Visit",price:15000,unit:"up to 2 BHK",meta:"Mumbai · homes up to 2 BHK",
    feat:["On-site examination of every room","Positive and negative zones mapped","Pyramid remedies placed on site","Report and Nirantar follow-up"],
-   calendly:"https://calendly.com/YOUR-HANDLE/home-visit-2bhk"},
+   calendly:"https://calendly.com/rituchakkravastu/vastu-consultation-with-rahul-purohit"},
   {id:"visit-large",mode:"person",name:"Large Home Site Visit",price:21000,unit:"above 2 BHK",tag:"For larger homes",meta:"Mumbai · homes larger than 2 BHK",
    feat:["On-site examination of every room","Positive and negative zones mapped","Pyramid remedies placed on site","Report and Nirantar follow-up"],
-   calendly:"https://calendly.com/YOUR-HANDLE/home-visit-large"},
+   calendly:"https://calendly.com/rituchakkravastu/vastu-consultation-with-rahul-purohit"},
   {id:"visit-factory",mode:"person",name:"Factories & Large Sites",price:25000,unit:"onwards",meta:"Factories, plots and large premises",
    feat:["Full site survey","Plot shape, size and layout assessment","Pyramid solutions across the premises","Final fee depends on size and nature"],
-   calendly:"https://calendly.com/YOUR-HANDLE/factories-large-sites"}
+   calendly:"https://calendly.com/rituchakkravastu/vastu-consultation-with-rahul-purohit"}
 ];
 
 const PRODUCTS = [ // price:null shows "Price on request" with a WhatsApp button. Add a number to sell it online.
